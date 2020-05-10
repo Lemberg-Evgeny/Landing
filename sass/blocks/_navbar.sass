@@ -1,0 +1,206 @@
+.header-navbar
+    background: #ffffff
+    box-shadow: 1px 1px 1px #000000
+    min-height: 50px
+    box-shadow: 0 2px 3px #000000
+    margin-bottom: 5px
+    position: fixed
+    width: 100%
+    border-radius: 0 0 3% 3%
+    &_wrap
+        display: flex
+        align-items: center
+        justify-content: space-between
+        position: relative
+        // +b_r
+    &_logo
+    &__logo
+        max-block-size: 35px
+    &_nav-btn
+        position: absolute
+        display: none
+        width: 30px
+        height: 30px
+        border-radius: 15%
+        top: 5px
+        right: -15px
+    &__nav-btn
+        position: absolute
+        width: 15px
+        height: 2px
+        top: 13px
+        left: 5px
+        background-color: #141313a7
+        &:before
+            content: ''
+            position: absolute
+            width: 15px
+            height: 2px
+            top: -5px
+            background-color: #141313a7
+        &:after
+            content: ''
+            position: absolute
+            width: 15px
+            height: 2px
+            top: 5px
+            background-color: #141313a7
+    &_links
+        display: flex
+        position: relative
+        justify-content: space-between
+    &__link
+        padding: 5px 12px
+        text-decoration: none
+        color: #ffffff
+        text-transform: uppercase
+        text-shadow: 1px 1px 5px #000000
+        +bold
+        &:hover
+            color: #c9c4c4
+            text-shadow: none
+//////////////////// Adaptability ///////////////////////
+@media (max-width: 768px)
+    .header-navbar
+        &_wrap
+            // z-index: 3
+            // position: fixed
+            // width: 100%
+            // height: 100%
+            // // margin: 0 auto
+            // left: 0
+            // // top: 0
+            // background-color: rgba(235, 235, 235, 0.952)
+        &_logo
+            position: absolute
+            top: 0
+            left: 0
+        &_nav-btn
+            display: block
+        &__nav-btn
+        &_links
+            display: none
+            margin-top: 50px
+            &.nav-active
+                display: block
+        &__link
+            display: block
+            padding-left: 0
+    
+    
+
+
+
+
+
+
+    
+// .hide-nav
+//     display: none
+//     margin-right: 0
+//     margin-left: auto
+//     position: relative
+//     width: 40px
+//     height: 40px
+//     border: 1px solid rgb(119, 118, 118)
+//     border-radius: 15%
+//     // background-color: blue
+//     cursor: pointer
+
+
+// .hide-nav__line 
+//     position: absolute
+//     display: block
+//     width: 80%
+//     left: 10%
+//     height: 3px
+//     background-color: rgb(119, 118, 118)
+//     border-radius: 5px
+
+
+// .hide-nav__line--top 
+    
+//     top: 8px
+//     transition: 1s
+
+
+// .hide-nav__line--middle 
+    
+//     top: 18px
+//     opacity: 1
+//     transition: 1s
+
+
+// .hide-nav__line--bottom 
+//     top: 28px
+//     transition: 1s
+
+
+// .hide-nav.active .hide-nav__line--top
+//     top: 20px
+//     transform: rotate(45deg)
+//     transition: 1s
+
+// .hide-nav.active .hide-nav__line--middle
+//     opacity: 0
+//     transition: 1s
+
+// .hide-nav.active .hide-nav__line--bottom
+//     top: 20px
+//     transform: rotate(-45deg)
+//     transition: 1s
+
+
+
+// .toggle-button
+//     &:checked
+//     .header-navbar_links
+//         margin-top: 0
+//             // transition: width 2s, height 2s, background-color 2s, transform 2s
+//         transition: margin-top 2s
+// .hide-nav 
+//     display: block
+	
+// .header-navbar_links
+//     // position: absolute
+//     top: -500px
+//     width: 100%
+//     transition: 1s
+    
+// .header-navbar_links.show 
+//     margin-top: 50px
+//     top: 0
+//     transition: 1s
+    
+// .header-navbar_links a 
+//     display: block
+    
+
+    
+
+
+
+
+    // &_logo
+    //     display: block
+    // &_wrap
+    //     width: 100%
+    //     display: flex
+    //     justify-content: space-between
+    //     align-items: center
+    // &__logo
+    //     max-block-size: 35px
+    // &_links
+    //     display: flex
+    // &__link
+    //     margin: 0 30px
+    //     text-decoration: none
+    //     color: #ffffff
+    //     text-transform: uppercase
+    //     text-shadow: 1px 1px 5px #000000
+    //     +bold
+    //     &:hover
+    //         color: #c9c4c4
+    //         text-shadow: none
+
+    

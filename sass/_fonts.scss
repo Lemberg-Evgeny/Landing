@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Roboto Slab Light';
+    src: url('../fonts/RobotoSlab-Light.eot');
+    src: url('../fonts/RobotoSlab-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobotoSlab-Light.woff') format('woff'),
+        url('../fonts/RobotoSlab-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab Regular';
+    src: url('../fonts/.eot');
+    src: url('../fonts/.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/.woff') format('woff'),
+        url('../fonts/.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab Bold';
+    src: url('../fonts/RobotoSlab-Bold.eot');
+    src: url('../fonts/RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobotoSlab-Bold.woff') format('woff'),
+        url('../fonts/RobotoSlab-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin light {
+    font-family: 'Roboto Slab Light';
+}
+
+@mixin regular {
+    font-family: 'Roboto Slab Regular';
+}
+
+@mixin bold {
+    font-family: 'Roboto Slab Bold';
+}
