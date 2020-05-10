@@ -183,7 +183,7 @@ h2 {
 }
 
 .header-face {
-  background: #000;
+  background: url(../../img/header-face__img.webp);
   background-size: cover;
   min-height: 600px;
 }
